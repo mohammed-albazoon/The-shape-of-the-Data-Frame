@@ -13,4 +13,4 @@ headers = ["Name", "Team", "Number", "Position",
 df = pd.read_csv(filename, names=headers)
 
 # To see what the data set looks like, we'll use the head() method.
-df.head()
+print(df.head())
